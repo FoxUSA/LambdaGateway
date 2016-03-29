@@ -1,0 +1,23 @@
+{
+  "gatewayContext":{
+    "stage" : "$context.stage",
+    "requestID" : "$context.requestId",
+    "apiID" : "$context.apiId",
+    "resourcePath" : "$context.resourcePath",
+    "resourceID" : "$context.resourceId",
+    "httpMethod" : "$context.httpMethod",
+    "sourceIP" : "$context.identity.sourceIp",
+    "userAgent" : "$context.identity.userAgent",
+    "accountID" : "$context.identity.accountId",
+    "apiKey" : "$context.identity.apiKey",
+    "caller" : "$context.identity.caller",
+    "user" : "$context.identity.user",
+    "userARN" : "$context.identity.userArn"
+  },
+  "params":{
+    "path" : "$input.params().path",
+    "query" : "$input.params().querystring",
+    "header" : "$input.params().header",
+    "body" : $input.json('$')
+  }
+}

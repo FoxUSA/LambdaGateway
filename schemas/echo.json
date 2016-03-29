@@ -1,0 +1,9 @@
+{
+	"type": "object",
+	"properties": {
+		"echo": {
+			"type": "string"
+		}
+    },
+	"additionalProperties":false
+}

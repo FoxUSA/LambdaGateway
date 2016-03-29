@@ -1,0 +1,13 @@
+{
+  "name": "LambdaGateway",
+  "version": "16.03.0",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+      "aws-sdk": "^2.2.9"
+  }
+}
