@@ -14,7 +14,7 @@ In each of the AG methods set the λ function to the one uploaded in step 2.
 
 5. Now you can deploy the AG configuration to the AG stage configured in the step 1.
 
-Tradditional multi envorment build chains(Dev,QA,Prod) can be achived using AG variables and configuration swapping. For more information see [this guide](https://aws.amazon.com/blogs/compute/using-api-gateway-stage-variables-to-manage-lambda-functions/]).
+Tradditional multi envorment build chains(Dev,QA,Prod) can be achived using AG variables and configuration swapping. For more information see [this guide](https://aws.amazon.com/blogs/compute/using-api-gateway-stage-variables-to-manage-lambda-functions/).
 # Credits
 	Jacob Liscom
 	Sam Strickler
